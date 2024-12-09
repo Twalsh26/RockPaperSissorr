@@ -1,0 +1,105 @@
+.OverviewBG {
+background-image: url(../img/Overview.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+}
+
+.OutsideBG {
+    background-image: url(../img/front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    }
+
+    .HallwayBG {
+        background-image: url(../img/hallway.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        }
+
+.OverviewText {
+    text-align: center;
+    color: rgb(218, 29, 29);
+}
+
+.button {
+right: 930px;
+position: absolute;
+
+--primary-color: #000000;
+  --secondary-color: #fff;
+  --hover-color: #ff0000;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+
+}
+
+.button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .button:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .button:hover .arrow:before {
+    right: 0;
+  }
+
+  .Player {
+    right: 550px;
+    top: 300px;
+position: absolute;
+
+  }
+
+  .EasyGurad {
+    right: 600px;
+    top: 100px;
+position: absolute;
+  }
