@@ -119,63 +119,63 @@ position: absolute;
     right: 1200px;
   }
   
-  #c1 {
+  #paper {
     background-image: url(../img/Battle\ cards!\ Paper.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   
-  #c2 {
+  #scissor {
     background-image: url(../img/Battle\ cards!\ Scissor.png.);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   
-  #c3 {
+  #rock {
     background-image: url(../img/Battle\ cards!\ Rock.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   
-  #c4 {
+  #first {
     background-image: url(../img/Battle\ cards!\.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   
-  .main:hover #c1 {
+  .main:hover #paper {
     transform: translateX(-100px) rotate(-40deg);
   }
   
-  .main:hover #c2 {
+  .main:hover #scissor {
     transform: translateX(-50px) rotate(-30deg);
   }
   
-  .main:hover #c3 {
+  .main:hover #rock{
     transform: translateX(0) rotate(-20deg);
   }
   
-  .main:hover #c4 {
+  .main:hover #first {
     transform: translateX(50px) rotate(-10deg);
   }
   
-  #c1:hover {
+  #paper:hover {
     transform: translateX(-150px) rotate(0deg) !important;
   }
   
-  #c2:hover {
+  #scissor:hover {
     transform: translateX(-100px) rotate(0deg) !important;
   }
   
-  #c3:hover {
+  #rock:hover {
     transform: translateX(-50px) rotate(0deg) !important;
   }
   
-  #c4:hover {
+  #first:hover {
     transform: translateX(50px) rotate(0deg) !important;
   }
   

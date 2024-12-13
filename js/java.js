@@ -4,5 +4,6 @@ const resultDisplay = document.getElementById('Result')
 const possibleChoices = document.querySelectorAll('.card')
 let userChoice
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener ('click' , (e)=>{
-    console.log ("working")
+    userChoice = e.target.id  
+    userChoiceDisplay.innerHTML = userChoice
 } ))
