@@ -184,3 +184,24 @@ position: absolute;
     height: 50vmax;
     place-items: center;
   }
+
+  .Results {
+color: rgb(83, 0, 167);
+position: absolute;
+right: 300px;
+bottom: 450px;
+  }
+
+  .GuardC {
+    color: rgb(167, 0, 0);
+    position: absolute;
+    right: 300px;
+    bottom: 750px;
+      }
+
+      .PlayerC {
+        color: rgb(0, 115, 182);
+        position: absolute;
+        right: 300px;
+        bottom: 100px;
+          }
