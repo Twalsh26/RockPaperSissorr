@@ -54,5 +54,5 @@ function getResult() {
 resultDisplay.innerHTML = result
 }
     
-
+switch (new Date().)
 
